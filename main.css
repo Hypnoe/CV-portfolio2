@@ -1,0 +1,117 @@
+* { 
+    margin: 0; 
+    padding: 0;
+} 
+body { 
+    background: linear-gradient(to left, #020f5c, #17bfc5); 
+    font-family: 'Times New Roman', Times, serif;
+}
+ .wrapper { 
+     width: 100%; 
+
+ } 
+ .info{ 
+     width: 100%;
+ }  
+ .info h1{ 
+    padding: 20px 30px 20px;
+     
+    
+}  
+.info p { 
+    padding: 20px 30px 20px;
+    
+    
+} 
+.info ul { 
+    padding-top: 30px; 
+} 
+.bild{ 
+    width: 100%; 
+    margin-top: 30px;
+    
+}  
+.icons { 
+    font-size: 40px; 
+    padding-top: 30px; 
+   margin-left: 35%;  
+
+   
+    } 
+    #mail { 
+        margin-left: 22%; 
+        color: black;
+    } 
+   
+ 
+@media only screen and (min-width: 768px) { 
+.wrapper { 
+    width: 600px;
+    margin: 0 auto;
+}  
+.info h1{ 
+    padding: 20px 100px 0px;
+     
+    
+}  
+.info p { 
+    padding: 50px 0px 0px; 
+    font-size: x-large;
+    
+    
+}  
+.info ul { 
+    padding-top: 30px; 
+    
+    font-size: x-large;
+} 
+.bild{ 
+    padding: 30px 0px 0px 50px;  
+    width: 80%
+    
+    
+}  
+#mail { 
+    font-size: x-large;
+}
+
+} 
+@media only screen and (min-width: 1000px) { 
+    .wrapper { 
+        width: 1000px;
+        
+    }  
+    .info { 
+        width: 100%; 
+        
+    } 
+    .info h1{ 
+        padding: 40px 0px 0px 40%;
+         
+        
+    }  
+    .info p { 
+        padding: 7% 0px 0px 30px;
+        
+        
+    }  
+    .info ul { 
+    padding-left: 30px;
+    }
+    .bild{ 
+        padding-top: 50px; 
+        padding-left: 30%; 
+         
+        width: 50%;
+        
+    }  
+    .icons { 
+        padding-left: 12%;
+    } 
+    #mail { 
+        padding-left: 14%;
+    }
+    
+    }
+    
+
